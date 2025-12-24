@@ -5,8 +5,7 @@ By analyzing ticket lifecycles, I identified key areas where automation or bette
 
 
 # 🚀 Key Insights & Business Value
-+ ###Volume Trends: Identified a recurring 25% spike in "Access Denied" tickets every Monday morning, suggesting a need for automated password reset tools.
-+ 
++ Volume Trends: Identified a recurring 25% spike in "Access Denied" tickets every Monday morning, suggesting a need for automated password reset tools.
 
 # 🛠️ Technical Stack
 + Data Source: CSV file from [Kaggle.com](Kaggle.com)
