@@ -1,6 +1,9 @@
 # ServiceDesk 360: IT Support Performance Analysis
 
-![Dashboard](images/Service_Desk.png)
+## 📂 How to Access the Dashboard
+1. **Static View:** See the [Dashboard Screenshot](images/Service_Desk.png) above for a quick preview.
+2. **Interactive View:** Download the `Help Desk Dashboard.pbix` file from the `/reports` folder. 
+   *(Requires Power BI Desktop to open)*.
 
 ## 📊 Project Overview
 This project provides a data-driven analysis of IT Support operations using a dataset of **9,500+ support tickets** from 2020. The primary objective was to visualize the ticket lifecycle and provide actionable insights for IT leadership to reduce backlog and improve the user experience.
