@@ -1,5 +1,7 @@
 # ServiceDesk 360: IT Support Performance Analysis
 
+![Dashboard](images/Service_Desk.png)
+
 ## 📊 Project Overview
 This project provides a data-driven analysis of IT Support operations using a dataset of **9,500+ support tickets** from 2020. The primary objective was to visualize the ticket lifecycle and provide actionable insights for IT leadership to reduce backlog and improve the user experience.
 
@@ -18,7 +20,7 @@ The support team faced challenges in tracking ticket aging and severity-based pr
 * **Dataset:** 9,542 records covering hardware, software, and networking issues.
 
 ## 📈 Dashboard Features
-* **KPI Overview:** Real-time tracking of Total Tickets, Average Resolution Time (ART), and CSAT.
+* **KPI Overview:** Real-time tracking of Total Tickets, Average Days Open, and CSAT.
 * **Severity Matrix:** Breakdown of tickets by High, Medium, and Low severity to prioritize high-impact issues.
 * **Team Performance:** Analysis of ticket distribution across Owner Groups (Networking, Software, Hardware, etc.).
 * **Trend Analysis:** Monthly volume tracking to identify peak support periods.
@@ -28,12 +30,11 @@ The support team faced challenges in tracking ticket aging and severity-based pr
 | :--- | :--- |
 | `ticket_number` | Unique identifier for each request. |
 | `owner_group` | The IT department responsible (e.g., Hardware, Software). |
-| `severity` | Impact level (0-Unassigned to 3-High). |
+| `severity` | Impact level (Unassigned to High). |
 | `days_open` | Total duration the ticket has been active. |
-| `satisfaction_score` | User-reported satisfaction (1-3). |
 
 ## 💡 Recommendation
 Based on the analysis, the IT department should:
-1. **Automate Triage:** Standardize severity assignment for the 3,000+ "Unassigned" tickets.
-2. **Focus on Hardware:** Allocate more resources to the Hardware group as they handle the highest volume.
+1. **Automate Triage:** 32% of tickets are "Unassigned." Automating the severity assignment process could reduce initial response times by 2-3 days.
+2. **Focus on Hardware:** The Hardware team handles 20% more volume than Software; consider re-skilling cross-functional agents to support the Hardware queue during peak months (July & September).
 3. **SLA Review:** Address the 19-day average open time for "High" severity issues.
